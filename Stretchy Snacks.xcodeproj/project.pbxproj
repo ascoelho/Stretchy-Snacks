@@ -13,6 +13,11 @@
 		43E8B51A1D09C113008E1968 /* Stretchy_Snacks.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 43E8B5181D09C113008E1968 /* Stretchy_Snacks.xcdatamodeld */; };
 		43E8B51C1D09C113008E1968 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43E8B51B1D09C113008E1968 /* Assets.xcassets */; };
 		43E8B51F1D09C113008E1968 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43E8B51D1D09C113008E1968 /* LaunchScreen.storyboard */; };
+		43E8B5271D09D0EF008E1968 /* oreos.png in Resources */ = {isa = PBXBuildFile; fileRef = 43E8B5261D09D0EF008E1968 /* oreos.png */; };
+		43E8B52C1D09D11B008E1968 /* pizza_pockets.png in Resources */ = {isa = PBXBuildFile; fileRef = 43E8B5281D09D11B008E1968 /* pizza_pockets.png */; };
+		43E8B52D1D09D11B008E1968 /* pop_tarts.png in Resources */ = {isa = PBXBuildFile; fileRef = 43E8B5291D09D11B008E1968 /* pop_tarts.png */; };
+		43E8B52E1D09D11B008E1968 /* popsicle.png in Resources */ = {isa = PBXBuildFile; fileRef = 43E8B52A1D09D11B008E1968 /* popsicle.png */; };
+		43E8B52F1D09D11B008E1968 /* ramen.png in Resources */ = {isa = PBXBuildFile; fileRef = 43E8B52B1D09D11B008E1968 /* ramen.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		43E8B51B1D09C113008E1968 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		43E8B51E1D09C113008E1968 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		43E8B5201D09C113008E1968 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43E8B5261D09D0EF008E1968 /* oreos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = oreos.png; sourceTree = "<group>"; };
+		43E8B5281D09D11B008E1968 /* pizza_pockets.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pizza_pockets.png; sourceTree = "<group>"; };
+		43E8B5291D09D11B008E1968 /* pop_tarts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pop_tarts.png; sourceTree = "<group>"; };
+		43E8B52A1D09D11B008E1968 /* popsicle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = popsicle.png; sourceTree = "<group>"; };
+		43E8B52B1D09D11B008E1968 /* ramen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ramen.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,11 +70,24 @@
 				43E8B5131D09C113008E1968 /* ViewController.swift */,
 				43E8B5151D09C113008E1968 /* Main.storyboard */,
 				43E8B51B1D09C113008E1968 /* Assets.xcassets */,
+				43E8B5301D09D120008E1968 /* Images */,
 				43E8B51D1D09C113008E1968 /* LaunchScreen.storyboard */,
 				43E8B5201D09C113008E1968 /* Info.plist */,
 				43E8B5181D09C113008E1968 /* Stretchy_Snacks.xcdatamodeld */,
 			);
 			path = "Stretchy Snacks";
+			sourceTree = "<group>";
+		};
+		43E8B5301D09D120008E1968 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				43E8B5281D09D11B008E1968 /* pizza_pockets.png */,
+				43E8B5291D09D11B008E1968 /* pop_tarts.png */,
+				43E8B52A1D09D11B008E1968 /* popsicle.png */,
+				43E8B52B1D09D11B008E1968 /* ramen.png */,
+				43E8B5261D09D0EF008E1968 /* oreos.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +148,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43E8B5271D09D0EF008E1968 /* oreos.png in Resources */,
 				43E8B51F1D09C113008E1968 /* LaunchScreen.storyboard in Resources */,
+				43E8B52E1D09D11B008E1968 /* popsicle.png in Resources */,
+				43E8B52D1D09D11B008E1968 /* pop_tarts.png in Resources */,
+				43E8B52C1D09D11B008E1968 /* pizza_pockets.png in Resources */,
 				43E8B51C1D09C113008E1968 /* Assets.xcassets in Resources */,
 				43E8B5171D09C113008E1968 /* Main.storyboard in Resources */,
+				43E8B52F1D09D11B008E1968 /* ramen.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
